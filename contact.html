@@ -1,0 +1,311 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ZALA Laundry | Teamplate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS here -->
+    <!-- bootstrap5 -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+
+<body>
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <!-- Bên trong load trang gồm: -->
+            <div class="preloader-inner position-relative">
+                <!-- Vòng quay xung quanh img -->
+                <div class="preloader-circle"></div>
+                <!-- img -->
+                <div class="preloader-img">
+                    <img src="assets/img/logo/logo.png" alt="Zala">
+                    <!-- class="img-fluid"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <nav class="navbar navbar-expand-md navbar-light bg-white">
+                    <div class="header-left">
+                        <!-- Logo -->
+                        <a href="#" class="navbar-brand logo">
+                            <img class="d-inline-block align-center" src="./assets/img/logo/logo.png" alt="logo ZALA">
+                            <span class="hidden">ZALA</span>
+                        </a>
+                    </div>
+                    <button type="button" class="btn-menu-mobile navbar-toggler" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="main-menu collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav text-start mx-auto">
+                            <li class="nav-item active">
+                                <a href="./index.html" class="active">
+                                    Trang chủ
+                                    <!--! Giữ nguyên-->
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html">
+                                    Về Chúng Tôi
+                                    <!-- ! Giới thiệu Zala-->
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./shoplist.html">
+                                    Các cửa hàng
+                                    <!-- ! Giới thiệu Các cửa hàng-->
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="./new.html">
+                                    Tin tức
+                                </a>
+                                <!-- !Trong trang bao gồm:
+                                        +: Cập nhật các công nghệ ...
+                                    -->
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <a href="#" class="header-btn2">Đặt ngay!</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+        <div class="main-area">
+            <!--* slider Start -->
+            <div class="slider-area-2" data-background="assets/img/hero/hero2.png">
+                <div class="slider-height-2 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="slider-cap">
+                                    <h2>Liên hệ chúng tôi</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--* slider End -->
+            <!--* Contact Area start  -->
+            <section class="contact-section">
+                <div class="container">
+                    <a href="https://bitly.com.vn/v86yof" target="_blank">
+                        <img class="img-fluid mb-5" src="./assets/img/TruSo.png" alt="Trụ sở Zala: 0CT3C khu đô thị Handiresco Cổ Nhuế, thành phố Hà Nội">
+                    </a>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="contact-title"> Góp ý </h2>
+                            <div class="row">
+                                <form role="form" class="form-contact col-lg-8 mb-3" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="col-lg-12 mb-5">
+                                            <h3 class="form-title mb-4">
+                                                Thông tin yêu cầu
+                                            </h3>
+                                            <div class="row">
+                                                <label class="form-lable col-lg-3 text-lg-end">
+                                                    Nội dung góp ý <span class="theme-color-4">*</span>
+                                                </label>
+                                                <div class="col-lg-8">
+                                                    <textarea class="col-12 form-control" name="message" id="message" cols="30" rows="10" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nội dung góp ý'" placeholder="Nội dung góp ý" required></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 mb-5">
+                                            <h3 class="form-title mb-4">
+                                                Thông tin liên lạc
+                                            </h3>
+                                            <div class="row">
+                                                <label class="form-lable col-lg-3 text-lg-end">
+                                                    Họ và tên <span class="theme-color-4">*</span>
+                                                </label>
+                                                <div class="col-lg-8 mb-3">
+                                                    <input class="form-control" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập họ tên của bạn'" placeholder="Nhập họ tên của bạn">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="form-lable col-lg-3 text-lg-end">
+                                                    Email <span class="theme-color-4">*</span>
+                                                </label>
+                                                <div class="col-lg-8 mb-3">
+                                                    <input class="form-control" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập email của bạn'" placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="form-lable col-lg-3 text-lg-end">
+                                                    Chủ đề <span class="theme-color-4">*</span>
+                                                </label>
+                                                <div class="col-lg-8 mb-3">
+                                                    <input class="form-control" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập chủ đề'" placeholder="Nhập chủ đề">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn button boxed-btn">Send</button>
+                                </form>
+                                <div class="col-lg-3 offset-lg-1">
+                                    <div class="contact-info d-flex p-3">
+                                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                                        <div class="media-body">
+                                            <h3>Cổ Nhuế, thành phố Hà Nội</h3>
+                                            <p>0CT3C khu đô thị Handiresco</p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-info d-flex p-3">
+                                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                                        <div class="media-body">
+                                            <h3>0975729750</h3>
+                                            <p>Thứ Hai đến Thứ Sáu, 9 giờ sáng đến 6 giờ chiều</p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-info d-flex p-3">
+                                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                                        <div class="media-body">
+                                            <h3>zalalaundry.vn@gmail.com</h3>
+                                            <p>Gửi cho chúng tôi câu hỏi của bạn bất cứ lúc nào!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--* Contact Area End -->
+        </div>
+
+    </main>
+    <!-- Footer Start-->
+    <footer>
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                        <div class="footer-tittle">
+                            <!-- logo -->
+                            <div class="footer-logo mb-30">
+                                <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                            </div>
+                            <!-- Slogan -->
+                            <div class="footer-pera">
+                                <p>Bạn sẽ không phải giặt là ở đây</p>
+                            </div>
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/ZALA-105335955389063"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30">
+                        <div class="footer-tittle">
+                            <h4 class="mb-30">Dịch vụ</h4>
+                            <ul>
+                                <li><a href="#">- Dry Cleaning</a></li>
+                                <li><a href="#">- Dry Clean</a></li>
+                                <li><a href="#">- Ironing Services</a></li>
+                                <li><a href="#">- Laundry Service London</a></li>
+                                <li><a href="#">- Laundry App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4">
+                        <div class="footer-tittle">
+                            <h4 class="mb-30">Liên hệ</h4>
+                            <ul>
+                                <li class="number"><a href="#">(90) 898 789-8957</a></li>
+                                <li><a href="#">laundry@567.com</a></li>
+                                <li><a href="#">789/A, Green road NYC-9089</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area section-bg2" data-background="assets/img/gallery/footer-bg.png">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12">
+                            <div class="text-center">
+                                <p>
+                                    Zala Zala Zala Zala Zala Zala Zala
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End-->
+    <!-- Scroll Up -->
+    <div id="back-top">
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+    <!-- JS here -->
+
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap-->
+    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <!-- One Page, Animated-HeadLin -->
+
+    <!-- Date Picker -->
+    <!-- Nice-select, sticky -->
+    <!-- Progress -->
+
+    <!-- counter , waypoint,Hover Direction -->
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <!-- //*Tránh các lỗi về giao diện điều khiển trong các trình duyệt thiếu bảng điều khiển. -->
+    <script src="./assets/js/plugins.js"></script>
+    <!-- //*Các hiệu ứng sự kiện phần thân -->
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="./assets/js/loader.js"></script> -->
+</body>
+
+</html>
