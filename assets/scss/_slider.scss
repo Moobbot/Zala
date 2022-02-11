@@ -31,16 +31,14 @@
 }
 
 .slider-area {
-    width: 100%;
     margin-top: -1px;
-    background-position: top center;
-    .hero_caption {
+    .hero-text {
         overflow: hidden;
-        span {
-            font-family: $font_1;
-            font-weight: 800;
-            display: block;
-        }
+        // span {
+        //     font-family: $font_1;
+        //     font-weight: 800;
+        //     display: block;
+        // }
         h1 {
             font-size: 70px;
             font-weight: 700;
@@ -86,6 +84,71 @@
     }
 }
 
+
+/* The hero image - là một hình ảnh lớn có văn bản, thường được đặt ở đầu trang web*/
+
+
+/*Tham khảo tại https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+
+.hero-image-1 {
+    background-image: url(../img/hero/h1_hero.png);
+    /* Định vị và căn giữa hình ảnh để chia tỷ lệ đẹp trên tất cả các màn hình */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// Hero Overly --Class nền tối cho hình
+.hero-overly {
+    position: relative;
+    z-index: 0;
+    &::before {
+        position: absolute;
+        content: "";
+        @extend %hero1;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+}
+
+.hero-overly2 {
+    position: relative;
+    z-index: 0;
+    &::before {
+        position: absolute;
+        content: "";
+        @extend %hero2;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+}
+
+.hero-btn {
+    padding: 16px 40px;
+}
+
+//  Transparent Header
+.header-transparent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+
+// Another Hero Page
 .slider-area-2 {
     .slider-cap {
         h2 {
