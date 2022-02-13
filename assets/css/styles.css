@@ -860,7 +860,6 @@ hr {
   font-family: "Muli", sans-serif;
   color: #10285d;
   font-size: 20px;
-  font-size: 20px;
   line-height: 30px;
   margin-bottom: 15px;
   font-weight: normal;
@@ -915,7 +914,10 @@ hr {
 }
 
 .utilities-area .single-cat .cat-icon img {
+  width: 105px;
+  height: 105px;
   margin-bottom: 30px;
+  border-radius: 50%;
 }
 
 .utilities-area .single-cat .cat-cap span {
@@ -1140,7 +1142,6 @@ hr {
 .wantToWork-area .wantToWork-btn {
   float: left;
   margin-top: 30px;
-  pointer-events: none;
 }
 
 /*------------------------------------CSS Map----------------------------------*/
@@ -1355,6 +1356,7 @@ hr {
   padding-right: 52px;
   margin-bottom: 50px;
   line-height: 1.8;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

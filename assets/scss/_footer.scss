@@ -38,6 +38,7 @@
             }
             margin-bottom: 50px;
             line-height: 1.8;
+            text-align: justify;
         }
     }
     //footer tittle
@@ -53,6 +54,7 @@
             padding: 0px;
             li {
                 margin-bottom: 15px;
+                // list-style: "- " outside;
                 a {
                     color: #575b5f;
                     font-weight: 400;

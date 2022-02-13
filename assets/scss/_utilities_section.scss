@@ -15,7 +15,10 @@
     .single-cat {
         .cat-icon {
             img {
+                width: 105px;
+                height: 105px;
                 margin-bottom: 30px;
+                border-radius: 50%;
             }
         }
         .cat-cap {
@@ -45,6 +48,7 @@
                 margin-bottom: 36px;
                 color: #57667e;
                 font-size: 16px;
+                // text-align: justify;
                 // @include transition(.2s);
                 @media #{$sm} {
                     font-size: 15px;
@@ -229,7 +233,7 @@
     .wantToWork-btn {
         float: left;
         margin-top: 30px;
-        pointer-events: none;
+        // pointer-events: none;
         // @media #{$sm} {
         //     float: left;
         //     margin-top: 30px;
