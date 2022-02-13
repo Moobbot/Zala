@@ -230,11 +230,6 @@ h6 a {
   color: inherit;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
 li {
   list-style: none;
 }
@@ -758,6 +753,144 @@ hr {
   }
 }
 
+/*------------------------------------CSS About----------------------------------*/
+.about-area .about-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area .about-img {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-area .about-img {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-area .about-img {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.about-area .about-img img {
+  width: 80%;
+}
+
+.about-area .about-caption {
+  padding-left: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .about-area .about-caption {
+    padding-left: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area .about-caption {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area .about-caption {
+    padding-top: 16px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-area .about-caption {
+    padding-top: 16px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-area .about-caption {
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+}
+
+.about-area .about-caption p {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area .about-caption p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area .about-caption p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-area .about-caption p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-area .about-caption p {
+    font-size: 16px;
+  }
+}
+
+.about-area .about-caption ul li {
+  font-family: "Muli", sans-serif;
+  color: #10285d;
+  font-size: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  list-style: "+ " outside;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area .about-caption ul li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area .about-caption ul li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-area .about-caption ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-area .about-caption ul li {
+    font-size: 16px;
+  }
+}
+
 /*------------------------------------CSS Utilities----------------------------------*/
 .utilities-area {
   padding: 110px 0 24px;
@@ -879,6 +1012,157 @@ hr {
 @media (max-width: 575px) {
   .section-tittle h2 {
     font-size: 23px;
+  }
+}
+
+/*------------------------------------CSS Offer-services----------------------------------*/
+.offer-services .single-offers {
+  position: relative;
+}
+
+.offer-services .single-offers .offers-caption {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.offer-services .single-offers .offers-caption .cat-icon img {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 575px) {
+  .offer-services .single-offers .offers-caption .cat-icon img {
+    margin-bottom: 9px;
+  }
+}
+
+.offer-services .single-offers .offers-caption .cat-cap {
+  padding: 0 102px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .offer-services .single-offers .offers-caption .cat-cap {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .offer-services .single-offers .offers-caption .cat-cap {
+    padding: 0 10px;
+  }
+}
+
+.offer-services .single-offers .offers-caption .cat-cap h5 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 21px;
+  -webkit-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .offer-services .single-offers .offers-caption .cat-cap h5 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 575px) {
+  .offer-services .single-offers .offers-caption .cat-cap h5 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+}
+
+.offer-services .single-offers .offers-caption .cat-cap p {
+  margin-bottom: 36px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .offer-services .single-offers .offers-caption .cat-cap p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .offer-services .single-offers .offers-caption .cat-cap p {
+    margin-bottom: 0px;
+  }
+}
+
+/*------------------------------------CSS Want to Work----------------------------------*/
+.wantToWork-area .wants-wrapper {
+  padding: 73px 30px;
+}
+
+@media (max-width: 575px) {
+  .wantToWork-area .wants-wrapper {
+    padding: 70px 25px;
+  }
+}
+
+.wantToWork-area .wantToWork-caption h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wantToWork-area .wantToWork-caption h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .wantToWork-area .wantToWork-caption h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wantToWork-area .wantToWork-caption h2 {
+    font-size: 25px;
+  }
+}
+
+.wantToWork-area .wantToWork-caption p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.wantToWork-area .wantToWork-btn {
+  float: left;
+  margin-top: 30px;
+  pointer-events: none;
+}
+
+/*------------------------------------CSS Map----------------------------------*/
+.map-area {
+  margin-top: 130px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .map-area {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .map-area {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  .map-area {
+    margin-top: 90px;
   }
 }
 
@@ -1096,6 +1380,11 @@ hr {
   font-size: 24px;
   margin-bottom: 40px;
   font-weight: 600;
+}
+
+.footer-area .footer-tittle ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 .footer-area .footer-tittle ul li {

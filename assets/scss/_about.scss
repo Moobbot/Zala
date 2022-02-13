@@ -1,0 +1,84 @@
+    /*------------------------------------CSS About----------------------------------*/
+    
+    .about-area {
+        // left img
+        .about-img {
+            //Dùng cho carousel
+            display: flex;
+            justify-content: end;
+            @media #{$md} {
+                justify-content: space-evenly;
+            }
+            @media #{$sm} {
+                justify-content: space-evenly;
+            }
+            @media #{$xs} {
+                justify-content: space-evenly;
+            }
+            //..
+            img {
+                width: 80%;
+            }
+        }
+        //right content
+        .about-caption {
+            padding-left: 30px;
+            @media #{$laptop} {
+                padding-left: 24px;
+            }
+            @media #{$lg} {
+                padding-left: 0px;
+            }
+            @media #{$md} {
+                padding-top: 16px;
+                padding-left: 0px;
+            }
+            @media #{$sm} {
+                padding-top: 16px;
+                padding-left: 0px;
+            }
+            @media #{$xs} {
+                padding-top: 10px;
+                padding-left: 0px;
+            }
+            p {
+                font-size: 20px;
+                @media #{$lg} {
+                    font-size: 18px;
+                }
+                @media #{$md} {
+                    font-size: 18px;
+                }
+                @media #{$sm} {
+                    font-size: 16px;
+                }
+                @media #{$xs} {
+                    font-size: 16px;
+                }
+            }
+            ul {
+                li {
+                    font-family: $font_2;
+                    color: $font_color-1;
+                    font-size: 20px;
+                    font-size: 20px;
+                    @media #{$lg} {
+                        font-size: 18px;
+                    }
+                    @media #{$md} {
+                        font-size: 18px;
+                    }
+                    @media #{$sm} {
+                        font-size: 16px;
+                    }
+                    @media #{$xs} {
+                        font-size: 16px;
+                    }
+                    line-height: 30px;
+                    margin-bottom: 15px;
+                    font-weight: normal;
+                    list-style: "+ " outside;
+                }
+            }
+        }
+    }
