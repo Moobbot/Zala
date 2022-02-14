@@ -1510,7 +1510,60 @@ hr {
 
 /*------------------------------------CSS Shop list----------------------------------*/
 .shoplist-area .card-block .card-title {
-  margin: 16px 0 16px 8px;
+  margin: 24px 0 0 16px;
+}
+
+.shoplist-area .card-block .card-text ul li {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.shoplist-area .card .card-img-top {
+  max-height: 462px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .shoplist-area .card .card-img-top {
+    max-height: 396px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .shoplist-area .card .card-img-top {
+    max-height: 328px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .shoplist-area .card .card-img-top {
+    max-height: 372px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .shoplist-area .card .card-img-top {
+    max-height: 574px;
+  }
+}
+
+.shoplist-area .card .card-text {
+  height: 234px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .shoplist-area .card .card-text {
+    height: 270px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .shoplist-area .card .card-text {
+    height: 184px;
+  }
+}
+
+.shoplist-area .card a:hover {
+  color: #6785FF;
 }
 
 /*------------------------------------CSS News----------------------------------*/

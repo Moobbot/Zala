@@ -3,7 +3,44 @@
 .shoplist-area {
     .card-block {
         .card-title {
-            margin: 16px 0 16px 8px;
+            margin: 24px 0 0 16px;
+        }
+        .card-text {
+            ul {
+                li {
+                    margin: 10px 0;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .card {
+        .card-img-top {
+            max-height: 462px;
+            @media #{$laptop} {
+                max-height: 396px;
+            }
+            @media #{$lg} {
+                max-height: 328px;
+            }
+            @media #{$md} {
+                max-height: 372px;
+            }
+            @media #{$sm} {
+                max-height: 574px;
+            }
+        }
+        .card-text {
+            height: 234px;
+            @media #{$md} {
+                height: 270px;
+            }
+            @media #{$sm} {
+                height: 184px;
+            }
+        }
+        a:hover {
+            color: $theme-color-1;
         }
     }
 }
