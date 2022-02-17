@@ -87,6 +87,10 @@ textarea:focus {
     text-transform: capitalize;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 input:focus::-moz-placeholder {
     opacity: 0;
     -webkit-transition: .4s;

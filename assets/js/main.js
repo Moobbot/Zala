@@ -22,12 +22,12 @@
     });
 
     // 3. Scroll Up
-    $('#back-top a').on("click", function() {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 400);
-        return false;
-    });
+    // $('#back-top a').on("click", function() {
+    //     $('body,html').animate({
+    //         scrollTop: 0
+    //     }, 500);
+    //     return false;
+    // });
 
     /* 4. data-background*/
     $("[data-background]").each(function() {

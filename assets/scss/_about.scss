@@ -5,19 +5,28 @@
         .about-img {
             //Dùng cho carousel
             display: flex;
-            justify-content: end;
-            @media #{$md} {
-                justify-content: space-evenly;
-            }
-            @media #{$sm} {
-                justify-content: space-evenly;
-            }
-            @media #{$xs} {
-                justify-content: space-evenly;
-            }
+            justify-content: center;
+            // @media #{$md} {
+            //     justify-content: space-evenly;
+            // }
+            // @media #{$sm} {
+            //     justify-content: space-evenly;
+            // }
+            // @media #{$xs} {
+            //     justify-content: space-evenly;
+            // }
             //..
             img {
-                width: 80%;
+                width: 68%;
+                @media #{$md} {
+                    width: 80%;
+                }
+                @media #{$sm} {
+                    width: 80%;
+                }
+                @media #{$xs} {
+                    width: 80%;
+                }
             }
         }
         //right content
@@ -30,19 +39,18 @@
                 padding-left: 0px;
             }
             @media #{$md} {
-                padding-top: 16px;
                 padding-left: 0px;
             }
             @media #{$sm} {
-                padding-top: 16px;
                 padding-left: 0px;
             }
             @media #{$xs} {
-                padding-top: 10px;
                 padding-left: 0px;
             }
             p {
                 font-size: 20px;
+                margin: 0;
+                padding: 0;
                 @media #{$lg} {
                     font-size: 18px;
                 }
@@ -75,6 +83,7 @@
                     }
                     line-height: 30px;
                     margin-bottom: 15px;
+                    margin-left: 10px;
                     font-weight: normal;
                     list-style: "+ " outside;
                 }

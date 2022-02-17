@@ -214,6 +214,10 @@ textarea:focus {
   text-transform: capitalize;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 input:focus::-moz-placeholder {
   opacity: 0;
   -webkit-transition: .4s;
@@ -761,37 +765,31 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-area .about-img img {
+  width: 68%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-area .about-img {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .about-area .about-img img {
+    width: 80%;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .about-area .about-img {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .about-area .about-img img {
+    width: 80%;
   }
 }
 
 @media (max-width: 575px) {
-  .about-area .about-img {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .about-area .about-img img {
+    width: 80%;
   }
-}
-
-.about-area .about-img img {
-  width: 80%;
 }
 
 .about-area .about-caption {
@@ -812,27 +810,26 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area .about-caption {
-    padding-top: 16px;
     padding-left: 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area .about-caption {
-    padding-top: 16px;
     padding-left: 0px;
   }
 }
 
 @media (max-width: 575px) {
   .about-area .about-caption {
-    padding-top: 10px;
     padding-left: 0px;
   }
 }
 
 .about-area .about-caption p {
   font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -865,6 +862,7 @@ hr {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 15px;
+  margin-left: 10px;
   font-weight: normal;
   list-style: "+ " outside;
 }
