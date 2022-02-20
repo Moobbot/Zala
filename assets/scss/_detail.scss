@@ -1,0 +1,121 @@
+/*------------------------------------CSS details----------------------------------*/
+
+.details-main {
+    color: $font_color-1;
+    .details-title {
+        margin: 0;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 130%;
+        color: #2e3192;
+        font-family: 'Merriweather';
+        margin-bottom: 24px;
+    }
+    .details-sapo {
+        font-weight: bold;
+    }
+    .details-content {
+        ul {
+            li {
+                list-style-type: disc !important;
+                line-height: 30px;
+            }
+        }
+    }
+    .detail-author {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 163.42%;
+        color: #333;
+        margin-top: 26px;
+        text-align: right;
+    }
+}
+
+[data-role="content"] {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 140%;
+}
+
+[data-role="content"] h1,
+[data-role="content"] h2,
+[data-role="content"] h3,
+[data-role="content"] h4,
+[data-role="content"] h5,
+[data-role="content"] h6 {
+    line-height: initial;
+    font-weight: bold
+}
+
+[data-role="content"] h1 {
+    font-size: 2em
+}
+
+[data-role="content"] h2 {
+    font-size: 1.5em
+}
+
+[data-role="content"]h3 {
+    font-size: 1.17em
+}
+
+[data-role="content"] b,
+[data-role="content"] strong {
+    font-weight: bold
+}
+
+[data-role="content"] i {
+    font-style: italic
+}
+
+[data-role="content"] sub,
+[data-role="content"] sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+[data-role="content"] sub {
+    bottom: -.25em
+}
+
+[data-role="content"] sup {
+    top: -.5em
+}
+
+@media(max-width:767px) {
+    [data-role="content"] .before-after,
+    [data-role="content"] .before-after-done {
+        width: 100% !important
+    }
+    [data-role="content"] .spdc-img-wrapper {
+        max-width: 100% !important
+    }
+}
+
+@media(max-width:575px) {
+    [data-role="content"] {
+        font-size: 1.2rem;
+        line-height: 1.618;
+    }
+}
+
+[data-role="content"] a {
+    color: -webkit-link
+}
+
+[data-role="content"] p {
+    margin: 2% 0
+}
+
+@media(max-width:575px) {
+    [data-role="content"] p {
+        margin: 1rem 0
+    }
+}

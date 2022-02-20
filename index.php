@@ -17,12 +17,12 @@ include('./reuse/load_and_up.php');
                             <div class="col-xl-7 col-lg-9 col-md-10 col-sm-9">
                                 <div class="hero-text">
                                     <h1>
-                                        Dịch vụ giặt là chất lượng trong thành phố của bạn
+                                        ZALA - NỀN TẢNG KẾT NỐI GIẶT LÀ
                                     </h1>
                                     <p>
-                                        Chúng tôi quan tâm đến độ sạch của vải của bạn
+                                        Hãy để chúng tôi trở thành một phần trong cuộc sống của bạn
                                     </p>
-                                    <a href="#service" class="btn hero-btn">Khám phá các dịch vụ</a>
+                                    <a href="#service" class="btn hero-btn">Khám phá ngay!</a>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,8 @@ include('./reuse/load_and_up.php');
                                 <img src="assets/img/icon/services-icon1.png" srcset="assets/img/icon/services-icon1.svg">
                             </div>
                             <div class="cat-cap">
-                                <h5>Đa trải nghiệm công nghệ giặt</h5>
-                                <p>Nếu bạn sở hữu 1 gói sản phẩm, bạn có cơ hội được trải nghiệm đa dạng các công nghệ giặt tại hệ sinh thái của ZALA</p>
+                                <h5>Đa dạng lựa chọn giặt là</h5>
+                                <p>Nếu bạn sở hữu 1 gói sản phẩm, bạn có cơ hội lựa chọn địa điểm giặt là phù hợp cùng với đó là được trải nghiệm đa dạng các công nghệ giặt tại hệ sinh thái của ZALA</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ include('./reuse/load_and_up.php');
                                 <img src="assets/img/icon/Giaohang.png" srcset="assets/img/icon/Giaohang-1.png">
                             </div>
                             <div class="cat-cap">
-                                <h5>Nhận giao hàng tận nơi</h5>
+                                <h5>Giao nhận hàng tận nơi</h5>
                                 <p>Hãy cứ ở nhà, ZALA sẽ tới tận nơi lấy và gửi lại đồ cho bạn trong 1 nốt nhạc</p>
                             </div>
                         </div>
@@ -69,8 +69,8 @@ include('./reuse/load_and_up.php');
                                 <img src="assets/img/icon/phanhoi.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5>Phản hồi qua ZALA Feed</h5>
-                                <p>Khách hàng có thể xem trước review về các tiệm giặt và tham khảo ý kiến khách hàng đã sử dụng dịch vụ tại ZALA feed</p>
+                                <h5>Review chân thực</h5>
+                                <p>Người dùng có thể xem trước các review và sau khi sử dụng dịch vụ có thể để lại đánh giá chân thực nhất qua ZALA Feed.</p>
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@ include('./reuse/load_and_up.php');
                                         <img src="assets/img/icon/offers-icon1.png" alt="">
                                     </div>
                                     <div class="cat-cap">
-                                        <h5>Gói Basic 1, 2</h5>
-                                        <p class="mx-md-0 mx-3">Sản phẩm được tinh gọn, đóng gói thành các gói đăng ký giặt theo tháng, quý, năm. Khách hàng chỉ cần mua 1 gói giặt tùy vào khối lượng giặt tiêu chuẩn đã đăng ký mua theo gói.</p>
+                                        <h5>Gói Basic 1</h5>
+                                        <p class="mx-md-0 mx-3">Độc thân "quyến rũ", lo gì chuyện "giặt giũ". Quần áo mặc xong treo đó, để ZALA lo.</p>
                                     </div>
                                 </div>
                             </div>
@@ -114,15 +114,34 @@ include('./reuse/load_and_up.php');
                                         <img src="assets/img/icon/offers-icon1.png" alt="">
                                     </div>
                                     <div class="cat-cap">
-                                        <h5>Gói Premium</h5>
-                                        <p class="mx-md-0 mx-3">Khách hàng được quyền giặt theo sản phẩm với số lượng nhất định đi kèm đồ vải gia dụng như chăn, rèm, thảm …</p>
+                                        <h5>Gói Basic 2</h5>
+                                        <p class="mx-md-0 mx-3">Phụ nữ ơi, hãy dành thời gian để yêu thương bản thân mình. Cả ngày mệt mỏi, về nhà bừa bộn, quần áo chất đống nhìn muốn buông xuôi. Hãy để ZALA giúp các mẹ 1 tay chăm sóc gia đình.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-9 g-0">
                             <div class="single-offers">
+                                <img src="assets/img/gallery/offers1.png" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-9 g-0">
+                            <div class="single-offers">
                                 <img src="assets/img/gallery/offers4.png" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-9 g-0">
+                            <div class="single-offers">
+                                <img src="assets/img/gallery/offers2.png" alt="" class="w-100">
+                                <div class="offers-caption text-center">
+                                    <div class="cat-icon">
+                                        <img src="assets/img/icon/offers-icon1.png" alt="">
+                                    </div>
+                                    <div class="cat-cap">
+                                        <h5>Gói Premium</h5>
+                                        <p class="mx-md-0 mx-3">Spa kỹ hơn cho các "cục cưng". Nhà không có gì ngoài quần áo "hịn" nhưng lại không biết cách chăm sóc, ZALA kiếm chuyên gia cho.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

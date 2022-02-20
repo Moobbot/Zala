@@ -32,6 +32,18 @@ include('./reuse/load_and_up.php');
                     <div class="new-left_sidebar">
                         <article class="new-item">
                             <div class="new-item-img">
+                                <img class="card-img-top" src="./assets/img/new/new-1.jpg" alt="...">
+                            </div>
+                            <div class="new-details">
+                                <a class="d-inline-block" href="./new_detail.php">
+                                    <h2 class="card-title">Hoá chất giặt là gì và cách dùng hóa chất hiệu quả trong giặt ủi công nghiệp
+                                    </h2>
+                                </a>
+                                <p class="card-text">Trong ngành giặt ủi công nghiệp, hóa chất là yếu tố quan trọng bắt buộc phải sử dụng để làm sạch các vết bẩn trên hàng vải. Việc lựa chọn hóa chất giặt chưa đúng hoặc liều dùng không phù hợp có thể gây ra những hư hại không mong muốn. Do đó, cần nắm rõ đặc điểm và cách sử dụng từng loại hóa chất để mang lại hiệu quả giặt tối ưu nhất. Vậy hóa chất giặt là gì, những hóa chất giặt cần có trong giặt ủi, cách sử dụng hóa chất giặt ủi đúng cách. Hãy cùng ZALA tìm hiểu nhé!</p>
+                            </div>
+                        </article>
+                        <article class="new-item">
+                            <div class="new-item-img">
                                 <img class="card-img-top" src="./assets/img/new/Giatla_1.jpg" alt="...">
                             </div>
                             <div class="new-details">
