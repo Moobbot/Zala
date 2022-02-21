@@ -114,7 +114,7 @@ include('./reuse/load_and_up.php');
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div>
                             <div class="carousel-inner container my-5">
-                                <!-- Thơ -->
+                                <!-- Nhóm -->
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-12 my-md-0 my-5">
@@ -124,6 +124,7 @@ include('./reuse/load_and_up.php');
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Thơ -->
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-lg-6 col-12 my-md-0 my-5">
@@ -133,24 +134,28 @@ include('./reuse/load_and_up.php');
                                         </div>
                                         <div class="col-lg-5 col-12">
                                             <div class="about-caption">
-                                                <h3>Nguyễn Thị Anh Thơ - Founder & CEO</h3>
+                                                <h3>Nguyễn Thị Anh Thơ - Chuyên ngành Marketing/Quản trị Kinh doanh Học viện Tài chính</h3>
                                                 <p style="text-align: justify;">
                                                 <ul>
-                                                    <li> 2nd Runner up</li>
-                                                    <li> Cuộc thi AOF</li>
-                                                    <li> Case Competition</li>
-                                                    <li> Top 8 Khởi Nghiệp Trẻ 2020 với dự án DiabeCare.</li>
-                                                    <li> Top 8 Khởi Nghiệp Trẻ 2021 với dự án Booking Laundry</li>
-                                                    <li> Ban Tổ chức các chương trình của Hội Sinh viên HVTC như: Chào tân sinh viên2019, 2020; Tết sinh viên; ....</li>
-                                                    <li> Tham gia Đại sứ Top sinh viên</li>
-                                                    <li> BTC chương trình Best Library University 2020 do Top sinh viên tổ chức</li>
-                                                    <li> Đạt danh hiệu Sinh viên 5 tốt cấp Học viện năm học 2019 – 2020
+                                                    <li><b>Thành tích</b></li>
+                                                    <li>
+                                                        <ul>
+                                                            <li>+ Sinh viên 5 tốt năm học 2019 – 2020 & 2020 – 2021</li>
+                                                            <li>+ Quý Quân ACC 2021</li>
+                                                            <li>+ Bán kết Khởi nghiệp trẻ 2020 & 2021</li>
+                                                            <li>+ Chung kết SV Startup 2021 toàn quốc</li>
+                                                            <li>+ Học bổng Khuyến khích học tập năm học 2019 - 2020</li>
+                                                        </ul>
                                                     </li>
-                                                    <li> Ban Truyền thông Liên chi Đoàn khoa Quản trị Kinh doanh HVTC (10/2020 - nay) & CLB Marketing Học viện Tài Chính (12/2019- 2021)
+                                                    <li><b>Hoạt động</b></li>
+                                                    <li>
+                                                        <ul>
+                                                            <li>+ Phó Ban Đối ngoại Hội sinh viên Học viện Tài chính</li>
+                                                            <li>+ Đại sứ truyền thông Top Sinh viên 2020</li>
+                                                            <li>+ Đại sứ truyền thông Cuộc thi You Can 2021</li>
+                                                        </ul>
                                                     </li>
-                                                    <li> Phó Ban Đối ngoại Hội sinh viên Học viện Tài chính</li>
                                                 </ul>
-
                                                 </p>
                                             </div>
                                         </div>
@@ -166,19 +171,24 @@ include('./reuse/load_and_up.php');
                                         </div>
                                         <div class="col-lg-5 col-12">
                                             <div class="about-caption">
-                                                <h3>Vũ Thị Phương Anh - CFO</h3>
+                                                <h3>Vũ Thị Phương Anh - Chuyên ngành Kế toán Doanh nghiệp Học viện Tài Chính</h3>
                                                 <p style="text-align: justify;">
                                                 <ul>
-                                                    <li>Tham gia cuộc thi Cây bút vàng năm 2020</li>
-                                                    <li>Top 100 PAC 2021 - Potential Auditors Challenge </li>
-                                                    <li>Top 8 Khởi Nghiệp Trẻ 2021 với dự án Booking Laundry </li>
-                                                    <li>Được Giám đốc Học viện trao tặng danh hiệu "Sinh viên chương trình đào tạo Chất lượng cao tiêu biểu" năm học 2019-2020
+                                                    <li><b>Thành tích</b></li>
+                                                    <ul>
+                                                        <li>+ Bán kết Khởi nghiệp trẻ 2020 & 2021</li>
+                                                        <li>+ Top 100 PAC 2021 - Potential Auditors Challenge </li>
+                                                        <li>+ Đạt danh hiệu "Sinh viên chương trình đào tạo Chất lượng cao tiêu biểu" năm học 2019-2020 & 2020 – 2021</li>
+                                                        <li>+ Đạt danh hiệu Sinh viên 5 Tốt cấp Học viện năm học 2020 – 2021</li>
+                                                    </ul>
+                                                    <li><b>Hoạt động</b></li>
+                                                    <ul>
+                                                        <li>Phó ban tại Ban Đối ngoại Hội Sinh viên Học viện Tài chính</li>
+                                                        <li>Đội trưởng Đội Sinh viên tình nguyện đồng hương Hải Dương Học viện Tài chính nhiệm kỳ IX</li>
+                                                        <li>Được Hội Sinh viên khen thưởng "Đạt thành tích xuất sắc trong công tác Hội và phong trào sinh viên năm học 2020-2021"
+                                                        <li>Admin Fanpage: Học Viện Tài Chính</li>
+                                                    </ul>
                                                     </li>
-                                                    <li>Giữ chức vụ Phó ban tại Ban Đối ngoại Hội Sinh viên Học viện Tài chính</li>
-                                                    <li>Được Hội Sinh viên khen thưởng "Đạt thành tích xuất sắc trong công tác Hội và phong trào sinh viên năm học 2020-2021"
-                                                    </li>
-                                                    <li>Đội trưởng Đội Sinh viên tình nguyện đồng hương Hải Dương Học viện Tài chính nhiệm kỳ IX</li>
-                                                    <li>Tham gia làm Admin Fanpage: Học Viện Tài Chính</li>
                                                 </ul>
 
                                                 </p>
@@ -196,15 +206,22 @@ include('./reuse/load_and_up.php');
                                         </div>
                                         <div class="col-lg-5 col-12">
                                             <div class="about-caption">
-                                                <h3>Nguyễn Châu Giang - CMO</h3>
+                                                <h3>Nguyễn Châu Giang - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
                                                 <p style="text-align: justify;">
                                                 <ul>
-                                                    <li>Học bổng Khuyến khích học tập của Học viện Tài chính năm 2019-2020 </li>
-                                                    <li>Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
-                                                    </li>
-                                                    <li>Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
-                                                    <li>Top 8 Khởi Nghiệp Trẻ 2021 với dự án Booking Laundry </li>
-                                                    <li>Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
+                                                    <li><b>Thành tích</b></li>
+                                                    <ul>
+                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
+                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                    </ul>
+                                                    <li><b>Hoạt động</b></li>
+                                                    <ul>
+                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
+                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
+                                                        </li>
+                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
+                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                    </ul>
                                                 </ul>
                                                 </p>
                                             </div>
@@ -294,12 +311,6 @@ include('./reuse/load_and_up.php');
             </div>
         </section>
         <!-- Want To work End -->
-        <!--* Testimonials_start -->
-        <!-- <section></section> -->
-        <!-- Testimonials_end -->
-        <!--* Company achievement Start -->
-        <!-- <section></section> -->
-        <!-- Company achievement End -->
         <!--* About Area  -->
         <section class="map-area">
             <div class="map-wapper">

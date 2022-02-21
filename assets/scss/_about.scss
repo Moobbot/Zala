@@ -65,6 +65,8 @@
                 }
             }
             ul {
+                margin-left: 0 !important;
+                padding-left: 0 !important;
                 li {
                     font-family: $font_2;
                     color: $font_color-1;
@@ -85,7 +87,7 @@
                     margin-bottom: 15px;
                     margin-left: 10px;
                     font-weight: normal;
-                    list-style: "+ " outside;
+                    // list-style: "+ " outside;
                 }
             }
         }

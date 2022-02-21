@@ -856,6 +856,11 @@ hr {
   }
 }
 
+.about-area .about-caption ul {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
 .about-area .about-caption ul li {
   font-family: "Muli", sans-serif;
   color: #10285d;
@@ -864,7 +869,6 @@ hr {
   margin-bottom: 15px;
   margin-left: 10px;
   font-weight: normal;
-  list-style: "+ " outside;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
