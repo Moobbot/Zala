@@ -17,16 +17,18 @@
             // }
             //..
             img {
-                width: 68%;
-                @media #{$md} {
-                    width: 80%;
-                }
-                @media #{$sm} {
-                    width: 80%;
-                }
-                @media #{$xs} {
-                    width: 80%;
-                }
+                max-width: 100%;
+                height: auto;
+                // width: 70%;
+                // @media #{$md} {
+                //     width: 80%;
+                // }
+                // @media #{$sm} {
+                //     width: 80%;
+                // }
+                // @media #{$xs} {
+                //     width: 80%;
+                // }
             }
         }
         //right content
@@ -39,12 +41,15 @@
                 padding-left: 0px;
             }
             @media #{$md} {
+                padding-top: 20px;
                 padding-left: 0px;
             }
             @media #{$sm} {
+                padding-top: 20px;
                 padding-left: 0px;
             }
             @media #{$xs} {
+                padding-top: 20px;
                 padding-left: 0px;
             }
             p {
@@ -91,4 +96,8 @@
                 }
             }
         }
+    }
+    
+    .height-about {
+        // height: 780px;
     }

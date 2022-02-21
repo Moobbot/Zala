@@ -112,11 +112,14 @@ include('./reuse/load_and_up.php');
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
                             </div>
                             <div class="carousel-inner container my-5">
                                 <!-- Nhóm -->
                                 <div class="carousel-item active">
-                                    <div class="row">
+                                    <div class="row justify-content-center">
                                         <div class="col-12 my-md-0 my-5">
                                             <div class="about-img">
                                                 <img src="assets/img/elements/nhom.jpg" alt="Zala">
@@ -126,13 +129,13 @@ include('./reuse/load_and_up.php');
                                 </div>
                                 <!-- Thơ -->
                                 <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 my-md-0 my-5">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-10 my-md-0 my-5">
                                             <div class="about-img">
-                                                <img src="assets/img/elements/tho.jpg" alt="Nguyễn Thị Anh Thơ">
+                                                <img src="assets/img/elements/Tho.png" alt="Nguyễn Thị Anh Thơ">
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-12">
+                                        <div class="col-lg-5 col-10">
                                             <div class="about-caption">
                                                 <h3>Nguyễn Thị Anh Thơ - Chuyên ngành Marketing/Quản trị Kinh doanh Học viện Tài chính</h3>
                                                 <p style="text-align: justify;">
@@ -163,13 +166,13 @@ include('./reuse/load_and_up.php');
                                 </div>
                                 <!-- Phương Anh -->
                                 <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 my-md-0 my-5">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-10 my-md-0 my-5">
                                             <div class="about-img">
-                                                <img src="assets/img/elements/phuonganh.jpg" alt="Vũ Thị Phương Anh">
+                                                <img src="assets/img/elements/PhuongAnh.png" alt="Vũ Thị Phương Anh">
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-12">
+                                        <div class="col-lg-5 col-10">
                                             <div class="about-caption">
                                                 <h3>Vũ Thị Phương Anh - Chuyên ngành Kế toán Doanh nghiệp Học viện Tài Chính</h3>
                                                 <p style="text-align: justify;">
@@ -183,14 +186,13 @@ include('./reuse/load_and_up.php');
                                                     </ul>
                                                     <li><b>Hoạt động</b></li>
                                                     <ul>
-                                                        <li>Phó ban tại Ban Đối ngoại Hội Sinh viên Học viện Tài chính</li>
-                                                        <li>Đội trưởng Đội Sinh viên tình nguyện đồng hương Hải Dương Học viện Tài chính nhiệm kỳ IX</li>
-                                                        <li>Được Hội Sinh viên khen thưởng "Đạt thành tích xuất sắc trong công tác Hội và phong trào sinh viên năm học 2020-2021"
-                                                        <li>Admin Fanpage: Học Viện Tài Chính</li>
+                                                        <li>+ Phó ban tại Ban Đối ngoại Hội Sinh viên Học viện Tài chính</li>
+                                                        <li>+ Đội trưởng Đội Sinh viên tình nguyện đồng hương Hải Dương Học viện Tài chính nhiệm kỳ IX</li>
+                                                        <li>+ Được Hội Sinh viên khen thưởng "Đạt thành tích xuất sắc trong công tác Hội và phong trào sinh viên năm học 2020-2021"
+                                                        <li>+ Admin Fanpage: Học Viện Tài Chính</li>
                                                     </ul>
                                                     </li>
                                                 </ul>
-
                                                 </p>
                                             </div>
                                         </div>
@@ -198,13 +200,109 @@ include('./reuse/load_and_up.php');
                                 </div>
                                 <!-- Châu Giang -->
                                 <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 my-md-0 my-5">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-10 my-md-0 my-5">
                                             <div class="about-img">
-                                                <img src="assets/img/elements/chaugiang.jpg" alt="Nguyễn Châu Giang">
+                                                <img src="assets/img/elements/Giang.png" alt="Nguyễn Châu Giang">
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-12">
+                                        <div class="col-lg-5 col-10">
+                                            <div class="about-caption">
+                                                <h3>Nguyễn Châu Giang - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
+                                                <p style="text-align: justify;">
+                                                <ul>
+                                                    <li><b>Thành tích</b></li>
+                                                    <ul>
+                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
+                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                    </ul>
+                                                    <li><b>Hoạt động</b></li>
+                                                    <ul>
+                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
+                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
+                                                        </li>
+                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
+                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                    </ul>
+                                                </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Duy -->
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                            <div class="about-img">
+                                                <img src="assets/img/elements/Duy.png" alt="Nguyễn Châu Giang">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-10">
+                                            <div class="about-caption">
+                                                <h3>Nguyễn Châu Giang - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
+                                                <p style="text-align: justify;">
+                                                <ul>
+                                                    <li><b>Thành tích</b></li>
+                                                    <ul>
+                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
+                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                    </ul>
+                                                    <li><b>Hoạt động</b></li>
+                                                    <ul>
+                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
+                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
+                                                        </li>
+                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
+                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                    </ul>
+                                                </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Tâm -->
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                            <div class="about-img">
+                                                <img src="assets/img/elements/Tam.png" alt="Nguyễn Châu Giang">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-10">
+                                            <div class="about-caption">
+                                                <h3>Ngô Đức Tâm - Chuyên ngành Công nghệ thông tin Đại học Thủy Lợi</h3>
+                                                <p style="text-align: justify;">
+                                                <ul>
+                                                    <li><b>Thành tích</b></li>
+                                                    <ul>
+                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
+                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                    </ul>
+                                                    <li><b>Hoạt động</b></li>
+                                                    <ul>
+                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
+                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
+                                                        </li>
+                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
+                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                    </ul>
+                                                </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Đức -->
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                            <div class="about-img">
+                                                <img src="assets/img/elements/Duc.png" alt="Nguyễn Châu Giang">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-10">
                                             <div class="about-caption">
                                                 <h3>Nguyễn Châu Giang - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
                                                 <p style="text-align: justify;">
