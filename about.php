@@ -277,7 +277,7 @@ include('./reuse/load_and_up.php');
                                                 <ul>
                                                     <li><b>Thành tích</b></li>
                                                     <ul>
-                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
+                                                        <li>+ Học bổng Khuyến khích học tập 3 kì liên tiếp </li>
                                                         <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
                                                     </ul>
                                                     <li><b>Hoạt động</b></li>
