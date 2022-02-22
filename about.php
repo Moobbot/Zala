@@ -120,7 +120,7 @@ include('./reuse/load_and_up.php');
                                 <!-- Nhóm -->
                                 <div class="carousel-item active">
                                     <div class="row justify-content-center">
-                                        <div class="col-12 my-md-0 my-5">
+                                        <div class="col-12 my-lg-5 my-3">
                                             <div class="about-img">
                                                 <img src="assets/img/elements/nhom.jpg" alt="Zala">
                                             </div>
@@ -130,7 +130,7 @@ include('./reuse/load_and_up.php');
                                 <!-- Thơ -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                        <div class="col-lg-5 col-10 my-lg-5 my-3">
                                             <div class="about-img">
                                                 <img src="assets/img/elements/Tho.png" alt="Nguyễn Thị Anh Thơ">
                                             </div>
@@ -167,7 +167,7 @@ include('./reuse/load_and_up.php');
                                 <!-- Phương Anh -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                        <div class="col-lg-5 col-10 my-lg-5 my-3">
                                             <div class="about-img">
                                                 <img src="assets/img/elements/PhuongAnh.png" alt="Vũ Thị Phương Anh">
                                             </div>
@@ -181,8 +181,8 @@ include('./reuse/load_and_up.php');
                                                     <ul>
                                                         <li>+ Bán kết Khởi nghiệp trẻ 2020 & 2021</li>
                                                         <li>+ Top 100 PAC 2021 - Potential Auditors Challenge </li>
-                                                        <li>+ Đạt danh hiệu "Sinh viên chương trình đào tạo Chất lượng cao tiêu biểu" năm học 2019-2020 & 2020 – 2021</li>
-                                                        <li>+ Đạt danh hiệu Sinh viên 5 Tốt cấp Học viện năm học 2020 – 2021</li>
+                                                        <li>+ Danh hiệu "Sinh viên chương trình đào tạo Chất lượng cao tiêu biểu" năm học 2019-2020 & 2020 – 2021</li>
+                                                        <li>+ Danh hiệu Sinh viên 5 Tốt năm 2020 – 2021</li>
                                                     </ul>
                                                     <li><b>Hoạt động</b></li>
                                                     <ul>
@@ -201,7 +201,7 @@ include('./reuse/load_and_up.php');
                                 <!-- Châu Giang -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                        <div class="col-lg-5 col-10 my-lg-5 my-3">
                                             <div class="about-img">
                                                 <img src="assets/img/elements/Giang.png" alt="Nguyễn Châu Giang">
                                             </div>
@@ -233,28 +233,23 @@ include('./reuse/load_and_up.php');
                                 <!-- Duy -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                        <div class="col-lg-5 col-10 my-lg-5 my-3">
                                             <div class="about-img">
-                                                <img src="assets/img/elements/Duy.png" alt="Nguyễn Châu Giang">
+                                                <img src="assets/img/elements/Duy.png" alt="Trần Đức Duy">
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-10">
                                             <div class="about-caption">
-                                                <h3>Nguyễn Châu Giang - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
+                                                <h3>Trần Đức Duy - Chuyên ngành Công nghệ thông tin Đại học Thủy Lợi</h3>
                                                 <p style="text-align: justify;">
                                                 <ul>
                                                     <li><b>Thành tích</b></li>
                                                     <ul>
-                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
-                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                        <li>+ Giải Nhất Cuộc thi Tin học Online 2021 do Đại học Thủy Lợi tổ chức</li>
                                                     </ul>
                                                     <li><b>Hoạt động</b></li>
                                                     <ul>
-                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
-                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
-                                                        </li>
-                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
-                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                        <li>+ Thành viên Liên chi Đoàn khoa Công nghệ Thông tin</li>
                                                     </ul>
                                                 </ul>
                                                 </p>
@@ -265,7 +260,7 @@ include('./reuse/load_and_up.php');
                                 <!-- Tâm -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                        <div class="col-lg-5 col-10 my-lg-5 my-3">
                                             <div class="about-img">
                                                 <img src="assets/img/elements/Tam.png" alt="Nguyễn Châu Giang">
                                             </div>
@@ -278,15 +273,14 @@ include('./reuse/load_and_up.php');
                                                     <li><b>Thành tích</b></li>
                                                     <ul>
                                                         <li>+ Học bổng Khuyến khích học tập 3 kì liên tiếp </li>
-                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                        <li>+ Giải ba NCKH sinh viên khoa lý luận chính trị cấp trường lần 34</li>
+                                                        <li>+ Giải khuyến khích NCKH sinh viên khoa CNTT cấp trường lần 34</li>
                                                     </ul>
                                                     <li><b>Hoạt động</b></li>
                                                     <ul>
-                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
-                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
-                                                        </li>
-                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
-                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                        <li>+ Từng là Admin page Đại học Thủy Lợi</li>
+                                                        <li>+ Thành viên - CLB Sinh viên tình nguyện Đại Học Thủy Lợi</li>
+                                                        <li>+ Thành viên - CLB Bóng rổ Đại Học Thủy Lợi</li>
                                                     </ul>
                                                 </ul>
                                                 </p>
@@ -297,28 +291,26 @@ include('./reuse/load_and_up.php');
                                 <!-- Đức -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-10 my-md-0 my-5">
+                                        <div class="col-lg-5 col-10 my-lg-5 my-3">
                                             <div class="about-img">
-                                                <img src="assets/img/elements/Duc.png" alt="Nguyễn Châu Giang">
+                                                <img src="assets/img/elements/Duc.png" alt="Nguyễn Minh Đức">
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-10">
                                             <div class="about-caption">
-                                                <h3>Nguyễn Châu Giang - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
+                                                <h3>Nguyễn Minh Đức - Chuyên ngành Tài chính doanh nghiệp Học viện Tài chính</h3>
                                                 <p style="text-align: justify;">
                                                 <ul>
                                                     <li><b>Thành tích</b></li>
                                                     <ul>
-                                                        <li>+ Học bổng Khuyến khích học tập năm 2019-2020 </li>
-                                                        <li>+ Bán kết Khởi nghiệp trẻ 2021</li>
+                                                        <li>+ Giấy khen đạt thành tích xuất sắc trong hoạt động thi đua và phát triển</li>
+                                                        <li>+ Tổ chức thành công Prom 2019, 2020 UBHS</li>
                                                     </ul>
                                                     <li><b>Hoạt động</b></li>
                                                     <ul>
-                                                        <li>+ Phó Chủ nhiệm CLB Kỹ năng cuộc sống </li>
-                                                        <li>+ Ban tổ chức các chương trình cuộc thi của CLB Kỹ năng Cuộc sống: Youthspeak Forum 2019, Workshop Online: Kickstart Your Career 2020, I Talk 2021, AOF Case Competition 2021,...
-                                                        </li>
-                                                        <li>+ Từng tham gia các cuộc thi: MARKETING ARENA 2021, CMO THINK AND ACTION 2021, Marketing on air 2021 </li>
-                                                        <li>+ Nhân viên Marketing tại Home Wellness</li>
+                                                        <li>+ Phó chủ tịch clb Phát thanh – Truyền thông UBHS</li>
+                                                        <li>+ Thành viên ban Đối ngoại Hội sinh viên Học viện Tài chính</li>
+                                                        <li>+ Admin page: Ban Đối Ngoại Hội Sinh Viên Học viện Tài chính</li>
                                                     </ul>
                                                 </ul>
                                                 </p>
@@ -342,51 +334,7 @@ include('./reuse/load_and_up.php');
         </section>
         <!-- About Area End -->
         <!--* Utilities Area Start -->
-        <section class="utilities-area border-bottom mb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col section-tittle text-center mb-5">
-                        <span class="element">Tiện ích</span>
-                        <h2>Những tiện ích bạn có tại Zala</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 align-center">
-                        <div class="single-cat text-center">
-                            <div class="cat-icon">
-                                <img src="assets/img/icon/services-icon1.png" srcset="assets/img/icon/services-icon1.svg">
-                            </div>
-                            <div class="cat-cap">
-                                <h5>Đa trải nghiệm công nghệ giặt</h5>
-                                <p>Nếu bạn sở hữu 1 gói sản phẩm, bạn có cơ hội được trải nghiệm đa dạng các công nghệ giặt tại hệ sinh thái của ZALA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 align-center">
-                        <div class="single-cat text-center">
-                            <div class="cat-icon">
-                                <img src="assets/img/icon/Giaohang.png" srcset="assets/img/icon/Giaohang-1.png">
-                            </div>
-                            <div class="cat-cap">
-                                <h5>Nhận giao hàng tận nơi</h5>
-                                <p>Hãy cứ ở nhà, ZALA sẽ tới tận nơi lấy và gửi lại đồ cho bạn trong 1 nốt nhạc</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 align-center">
-                        <div class="single-cat text-center">
-                            <div class="cat-icon">
-                                <img src="assets/img/icon/phanhoi.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5>Phản hồi qua ZALA Feed</h5>
-                                <p>Khách hàng có thể xem trước review về các tiệm giặt và tham khảo ý kiến khách hàng đã sử dụng dịch vụ tại ZALA feed</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include('./utilities.php') ?>
         <!--* Utilities Area end -->
         <!--* Want To work -->
         <section class="wantToWork-area">
