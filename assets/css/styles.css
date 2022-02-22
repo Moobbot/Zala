@@ -771,25 +771,8 @@ hr {
 }
 
 .about-area .about-img img {
-  width: 68%;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-area .about-img img {
-    width: 80%;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .about-area .about-img img {
-    width: 80%;
-  }
-}
-
-@media (max-width: 575px) {
-  .about-area .about-img img {
-    width: 80%;
-  }
+  max-width: 100%;
+  height: auto;
 }
 
 .about-area .about-caption {
@@ -810,18 +793,21 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area .about-caption {
+    padding-top: 20px;
     padding-left: 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area .about-caption {
+    padding-top: 20px;
     padding-left: 0px;
   }
 }
 
 @media (max-width: 575px) {
   .about-area .about-caption {
+    padding-top: 20px;
     padding-left: 0px;
   }
 }
