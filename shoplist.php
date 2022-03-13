@@ -37,21 +37,17 @@ include('./reuse/load_and_up.php');
                                     <ul>
                                         <li>
                                             <a href="https://bitly.com.vn/3h3q70" target="_blank">
-                                                <i class="fas fa-map-marker-alt"> Cơ sở 1: Số 9 Đặng Văn Ngữ, Đống
-                                                    Đa,
-                                                    Hà Nội</i>
+                                                <i class="fas fa-map-marker-alt"> Cơ sở 1: Số 9 Đặng Văn Ngữ, Đống Đa, Hà Nội</i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://bitly.com.vn/4ckf5z" target="_blank">
-                                                <i class="fas fa-map-marker-alt"> Cơ sở 2: 22 Nguyễn Thượng Hiền, Hà
-                                                    Nội</i>
+                                                <i class="fas fa-map-marker-alt"> Cơ sở 2: 22 Nguyễn Thượng Hiền, Hà Nội</i>
                                             </a>
                                         </li>
                                         <li>
                                             <a target="_blank">
-                                                <i class="fas fa-map-marker-alt"> Cơ sở 3: GH5 CT17 Việt Hưng, Long
-                                                    Biên, Hà Nội</i>
+                                                <i class="fas fa-map-marker-alt"> Cơ sở 3: GH5 CT17 Việt Hưng, Long Biên, Hà Nội</i>
                                             </a>
                                         </li>
                                         <li><i class="fas fa-mobile-alt"></i> 0888 482 868 & 0868 008 898</li>
@@ -72,15 +68,12 @@ include('./reuse/load_and_up.php');
                                     <ul>
                                         <li>
                                             <a href="https://bitly.com.vn/k74059" target="_blank">
-                                                <i class="fas fa-map-marker-alt"> Cơ sở 1: 22/52 Tô Ngọc Vân, Quảng
-                                                    An,
-                                                    Tây Hồ, Hà Nội</i>
+                                                <i class="fas fa-map-marker-alt"> Cơ sở 1: 22/52 Tô Ngọc Vân, Quảng An, Tây Hồ, Hà Nội</i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://bitly.com.vn/zi2c18" target="_blank">
-                                                <i class="fas fa-map-marker-alt"> Cơ sở 2: Tòa nhà E1 Ciputra, Hà
-                                                    Nội</i>
+                                                <i class="fas fa-map-marker-alt"> Cơ sở 2: Tòa nhà E1 Ciputra, Hà Nội</i>
                                             </a>
                                         </li>
                                         <li><i class="fas fa-mobile-alt"></i> 0936 486 958 & 024 6291 16161</li>

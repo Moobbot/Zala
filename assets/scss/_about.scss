@@ -33,24 +33,24 @@
         }
         //right content
         .about-caption {
-            padding-left: 30px;
-            @media #{$laptop} {
-                padding-left: 24px;
-            }
-            @media #{$lg} {
-                padding-left: 0px;
-            }
+            // padding-left: 30px;
+            // @media #{$laptop} {
+            //     padding-left: 24px;
+            // }
+            // @media #{$lg} {
+            //     padding-left: 0px;
+            // }
             @media #{$md} {
                 padding-top: 20px;
-                padding-left: 0px;
+                // padding-left: 0px;
             }
             @media #{$sm} {
                 padding-top: 20px;
-                padding-left: 0px;
+                // padding-left: 0px;
             }
             @media #{$xs} {
                 padding-top: 20px;
-                padding-left: 0px;
+                // padding-left: 0px;
             }
             p {
                 font-size: 20px;
