@@ -43,12 +43,13 @@ include('./reuse/load_and_up.php');
                         <h2>Dịch vụ chúng tôi cung cấp</h2>
                     </div>
                     <div class="row g-0 justify-content-center">
-                        <div class="col-lg-6 col-md-9 g-0">
+                        <!-- Hình -->
+                        <div class="col-lg-6 col-md-9 g-0 order-first">
                             <div class="single-offers">
-                                <img src="assets/img/gallery/offers1.png" alt="" class="w-100">
+                                <img src="assets/img/gallery/basic1.png" alt="" class="w-100">
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-9 g-0">
+                        <div class="col-lg-6 col-md-9 g-0 order-0">
                             <div class="single-offers">
                                 <img src="assets/img/gallery/offers2.png" alt="" class="w-100">
                                 <div class="offers-caption text-center">
@@ -57,12 +58,13 @@ include('./reuse/load_and_up.php');
                                     </div>
                                     <div class="cat-cap">
                                         <h5>Gói Basic 1</h5>
-                                        <p class="mx-md-0 mx-3">Độc thân "quyến rũ", lo gì chuyện "giặt giũ". Quần áo mặc xong treo đó, để ZALA lo.</p>
+                                        <p class="mx-md-0 mx-3">Độc thân "quyến rũ", lo gì chuyện "giặt giũ". Quần áo
+                                            mặc xong treo đó, để ZALA lo.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-9 g-0">
+                        <div class="col-lg-6 col-md-9 g-0 order-lg-1 order-2">
                             <div class="single-offers">
                                 <img src="assets/img/gallery/offers2.png" alt="" class="w-100">
                                 <div class="offers-caption text-center">
@@ -71,22 +73,26 @@ include('./reuse/load_and_up.php');
                                     </div>
                                     <div class="cat-cap">
                                         <h5>Gói Basic 2</h5>
-                                        <p class="mx-md-0 mx-3">Phụ nữ ơi, hãy dành thời gian để yêu thương bản thân mình. Cả ngày mệt mỏi, về nhà bừa bộn, quần áo chất đống nhìn muốn buông xuôi. Hãy để ZALA giúp các mẹ 1 tay chăm sóc gia đình.</p>
+                                        <p class="mx-md-0 mx-3">Phụ nữ ơi, hãy dành thời gian để yêu thương bản thân
+                                            mình. Cả ngày mệt mỏi, về nhà bừa bộn, quần áo chất đống nhìn muốn buông
+                                            xuôi. Hãy để ZALA giúp các mẹ 1 tay chăm sóc gia đình.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-9 g-0">
+                        <!-- Hình -->
+                        <div class="col-lg-6 col-md-9 g-0 order-lg-2 order-1">
                             <div class="single-offers">
-                                <img src="assets/img/gallery/offers1.png" alt="" class="w-100">
+                                <img src="assets/img/gallery/basic2.png" alt="" class="w-100">
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-9 g-0">
+                        <!-- Hình -->
+                        <div class="col-lg-6 col-md-9 g-0 order-3">
                             <div class="single-offers">
-                                <img src="assets/img/gallery/offers4.png" alt="" class="w-100">
+                                <img src="assets/img/gallery/premium.png" alt="" class="w-100">
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-9 g-0">
+                        <div class="col-lg-6 col-md-9 g-0 order-4">
                             <div class="single-offers">
                                 <img src="assets/img/gallery/offers2.png" alt="" class="w-100">
                                 <div class="offers-caption text-center">
@@ -95,7 +101,9 @@ include('./reuse/load_and_up.php');
                                     </div>
                                     <div class="cat-cap">
                                         <h5>Gói Premium</h5>
-                                        <p class="mx-md-0 mx-3">Spa kỹ hơn cho các "cục cưng". Nhà không có gì ngoài quần áo "hịn" nhưng lại không biết cách chăm sóc, ZALA kiếm chuyên gia cho.</p>
+                                        <p class="mx-md-0 mx-3">Spa kỹ hơn cho các "cục cưng". Nhà không có gì ngoài
+                                            quần áo "hịn" nhưng lại không biết cách chăm sóc, ZALA kiếm chuyên gia cho.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
